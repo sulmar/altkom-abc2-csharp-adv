@@ -81,8 +81,7 @@ namespace Delegates
 
             }
 
-            IQueryable
-            Expression
+           
         }
 
         private static void Printer_Completed() => Console.WriteLine("Completed!");
