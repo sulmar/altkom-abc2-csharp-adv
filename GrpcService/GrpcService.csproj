@@ -5,12 +5,20 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Protos\virus.proto" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Grpc" Version="2.27.0" />
     <PackageReference Include="Grpc.AspNetCore" Version="2.24.0" />
   </ItemGroup>
 
   <ItemGroup>
     <Folder Include="Services\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Protobuf Include="Protos\virus.proto" GrpcServices="Server" />
   </ItemGroup>
 
 </Project>
