@@ -8,6 +8,7 @@ service VirusService {
 	rpc AddInfected (AddInfectedRequest) returns (AddInfectedResponse);
 }
 
+
 message AddInfectedRequest {
 	string country = 1;	
 	int32 confirmed = 2;
@@ -20,3 +21,7 @@ message AddInfectedResponse {
 	bool is_confirmed = 1;
 }
 
+message Location {
+	float latitude = 1;
+	float longitude = 2;
+}

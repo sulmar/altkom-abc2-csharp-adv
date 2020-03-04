@@ -14,10 +14,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Services\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <Protobuf Include="Protos\virus.proto" GrpcServices="Server" />
   </ItemGroup>
 
