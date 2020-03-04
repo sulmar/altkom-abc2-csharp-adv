@@ -27,9 +27,9 @@ namespace WpfClient
             InitializeComponent();
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
+        private async Task Button_Click(object sender, RoutedEventArgs e)
         {
-            // Send();
+            // await SendAsync();
 
             //Thread thread = new Thread(Send);
             //thread.Start();
@@ -37,6 +37,14 @@ namespace WpfClient
             
         }
 
-      
+        private async void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            await SendAsync();
+        }
+
+        private  async Task SendAsync()
+        {
+            await Task.Delay(TimeSpan.FromSeconds(5));
+        }
     }
 }

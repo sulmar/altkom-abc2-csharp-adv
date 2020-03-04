@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+option csharp_namespace = "Virus.Api";
+
+package Virus;
+
+service VirusService {
+	rpc AddInfected (AddInfectedRequest) returns (AddInfectedResponse);
+}
+
+message AddInfectedRequest {
+	string country = 1;	
+	int32 confirmed = 2;
+	int32 recovered = 3;
+	float latitude = 4;
+	float longitude = 5;
+}
+
+message AddInfectedResponse {
+	bool is_confirmed = 1;
+}
+

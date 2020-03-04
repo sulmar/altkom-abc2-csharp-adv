@@ -35,6 +35,8 @@
 
             <Button Command="{Binding CancelCalculateCommand}" Background="Red" >Cancel Calculate</Button>
             <Label Content="{Binding Cost}" />
+
+            <Button Click="Button_Click_1">Click me!</Button>
         </StackPanel>
 
     </Grid>

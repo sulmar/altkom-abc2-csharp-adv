@@ -3,15 +3,21 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29409.12
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtensionMethods", "ExtensionMethods\ExtensionMethods.csproj", "{4E74548C-1C67-4CC7-8467-F0DDA2BC6C61}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExtensionMethods", "ExtensionMethods\ExtensionMethods.csproj", "{4E74548C-1C67-4CC7-8467-F0DDA2BC6C61}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CollectionTests", "CollectionTests\CollectionTests.csproj", "{F1667A86-EE29-4700-9D87-4C436D16660E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CollectionTests", "CollectionTests\CollectionTests.csproj", "{F1667A86-EE29-4700-9D87-4C436D16660E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Delegates", "Delegates\Delegates.csproj", "{56830E1B-D35C-4572-AFDA-1E597FA41A5B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Delegates", "Delegates\Delegates.csproj", "{56830E1B-D35C-4572-AFDA-1E597FA41A5B}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ParallerProgramming", "ParallerProgramming", "{4F292567-A6C6-4E0B-A0F8-92E0BD1C3530}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfClient", "WpfClient\WpfClient.csproj", "{B2244873-6371-460D-9B6C-37E131CB070C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WpfClient", "WpfClient\WpfClient.csproj", "{B2244873-6371-460D-9B6C-37E131CB070C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Reflections", "Reflections\Reflections.csproj", "{0B602D23-627C-4400-B2B4-667141B1A930}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PerformanceTests", "PerformanceTests\PerformanceTests.csproj", "{1044523B-FB5F-4532-8208-40E784F2C296}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GrpcService", "GrpcService\GrpcService.csproj", "{929C3207-BF07-40A9-94E1-B79BDD9001C4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,6 +41,18 @@ Global
 		{B2244873-6371-460D-9B6C-37E131CB070C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B2244873-6371-460D-9B6C-37E131CB070C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B2244873-6371-460D-9B6C-37E131CB070C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B602D23-627C-4400-B2B4-667141B1A930}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B602D23-627C-4400-B2B4-667141B1A930}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B602D23-627C-4400-B2B4-667141B1A930}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B602D23-627C-4400-B2B4-667141B1A930}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1044523B-FB5F-4532-8208-40E784F2C296}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1044523B-FB5F-4532-8208-40E784F2C296}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1044523B-FB5F-4532-8208-40E784F2C296}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1044523B-FB5F-4532-8208-40E784F2C296}.Release|Any CPU.Build.0 = Release|Any CPU
+		{929C3207-BF07-40A9-94E1-B79BDD9001C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{929C3207-BF07-40A9-94E1-B79BDD9001C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{929C3207-BF07-40A9-94E1-B79BDD9001C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{929C3207-BF07-40A9-94E1-B79BDD9001C4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
